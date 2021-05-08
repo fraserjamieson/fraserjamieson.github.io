@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <!-- {{ content }} -->
+        <div class="home">
+
+            <!-- <div id= "content-top">
+                <h4>budding software developer with a previous in marketing and customer support roles.  Honing learning in the tech industry, and am looking projects/workplaces which share my enthusiasm in these areas.
+                </h4>
+            </div> -->
+        
+            <div id="project-content">
+             {{ content }}
+            </div>
+            
+            
+        </div> 
+
+
+      </div> 
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
+

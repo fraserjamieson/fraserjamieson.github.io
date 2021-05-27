@@ -21,7 +21,7 @@
 title: Fraser Jamieson
 email: fraserjamieson.93@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Budding software developer with a previous in marketing and customer support roles.  Honing learning in the tech industry, and am looking projects/workplaces which share my enthusiasm in these areas.
+  Budding software developer with previous in marketing and customer support roles. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -35,6 +35,7 @@ input: GFM
 theme: minima
 plugins:
   - jekyll-feed
+# incremental: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

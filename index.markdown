@@ -4,6 +4,7 @@
 
 # title: fj
 layout: home
+# regenerate: true
 ---
 
    <span><a href="https://github.com/fraserjamieson/timelines_project">TimeLines</a></span><br>
